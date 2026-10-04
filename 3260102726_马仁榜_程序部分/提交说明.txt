@@ -1,0 +1,14 @@
+mini-Scheme 解释器
+
+运行环境：Python 3，仅使用标准库。
+入口：src/main.py
+
+在解压目录运行（如 Python 命令为 python3，请统一替换）：
+python src/main.py example/01_arithmetic.scm
+python autograder.pyz python src/main.py
+python tests/run_checks.py
+
+目录说明：
+src/：解释器源码，按词法、语法、数据类型、环境、求值、内置过程和打印拆分。
+tests/：自测与 Unicode 空白回归测试。
+example/、spec.md、README.md、autograder.pyz：原任务提供的示例、说明及评分器。
